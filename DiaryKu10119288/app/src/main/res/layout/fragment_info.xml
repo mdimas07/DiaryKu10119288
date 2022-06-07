@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 7 Juni 2022 | 10119288 | Muhamad Dimas | IF7 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFC7C7"
+    tools:context=".InfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="60dp"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Versi : 0.001"
+            android:textColor="#030E17"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Aplikasi: My Diary"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi   : Aplikasi ini di buat untuk Menyimpan Tulisan tulisan harian anda , membuat cerita cerita yg terjadi di kehidupan, bisa menjadi tempat curhat , menyimpan luapan hati anda."
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" 'Quotes By Google' "
+            android:textColor="#FF0000"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" 'Kalau setiap cerita hidup kita selalu indah, hati ini tidak pernah kenal dekat dengan sabar dan ikhlas' "
+            android:textColor="#FF0000"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pembuat   :Muhamad Dimas"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</RelativeLayout>

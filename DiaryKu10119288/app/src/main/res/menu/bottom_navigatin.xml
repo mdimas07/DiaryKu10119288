@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 7 Juni 2022 | 10119288 | Muhamad Dimas | IF7 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_catatan"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Catatan"/>
+    <item
+        android:id="@+id/nav_profil"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Profile"/>
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/ic_baseline_perm_device_information_24"
+        android:title="Info"/>
+</menu>
